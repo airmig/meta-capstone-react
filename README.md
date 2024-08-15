@@ -13,7 +13,7 @@ Clone this repository to your local machine to begin working on the project:
 
 :white_check_mark:
 ```
-git clone [meta-capstone-react](https://github.com/airmig/meta-capstone-react/tree/main)
+git clone https://github.com/airmig/meta-capstone-react/tree/main
 cd little-lemon-capstone
 ```
 
