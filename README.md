@@ -1,13 +1,21 @@
-Capstone Project
+#Capstone Project
 
-Overview
+![Little Lemon Restaurant Logo](https://adq.eai.today/ref1/logo.png)
+
+##Overview
 
 This repository contains the Capstone Project for the Meta - Front-end Developer Professional Certificate. The project involves building a React-based web application for Little Lemon Restaurant. The code demonstrates my front-end development skills and solve real-world problems.
 
-How to Use
+##How to Use
 
+ [!IMPORTANT]
 Clone this repository to your local machine to begin working on the project:
+
+[!TIP]
+```
 git clone [meta-capstone-react](https://github.com/airmig/meta-capstone-react/tree/main)
 cd little-lemon-capstone
+```
 
+[!NOTE]
 Then, start building the app!
