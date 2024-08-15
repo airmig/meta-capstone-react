@@ -7,7 +7,7 @@ This repository contains the Capstone Project for the Meta - Front-end Developer
 How to Use
 
 Clone this repository to your local machine to begin working on the project:
-git clone [https://github.com/yourusername/little-lemon-capstone.git](https://github.com/airmig/meta-capstone-react/tree/main)
+git clone [meta-capstone-react](https://github.com/airmig/meta-capstone-react/tree/main)
 cd little-lemon-capstone
 
 Then, start building the app!
