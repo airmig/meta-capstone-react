@@ -1,13 +1,281 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+}
+
+.header-title {
+  font-size: 1.80rem;
+  color: #4a8745;
+  padding-left: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  background-color: #4a8745;
+  color: #f4ce14;
+  border-radius: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.navbarMenuItems {
+  font-size: 1.80rem;
+  color: #4a8745;
+  padding-left: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.header-title img {
+  padding-right: 20px;
+}
+
+.hamburger {
+  width: 30px;
+  height: 30px;
+}
+
+header [class^="col"] {
+  display: inline-block;
+  width:auto;
+  height: 65px;
+}
+
+.hero {
+  background-image: url('/public/restaurant.webp');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border-radius: 10px;
+  min-height: 350px;
+}
+
+.reserve-button {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  display:inline-block;
+}
+
+.price {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color:crimson;
+}
+
+.specials-container {
+  background-color: #f4ce14;
+  margin: 0 auto;
+}
+
+.testimonial-container {
+  background-color: rgba(241, 242, 243, 0.79);
+  margin: 0 auto;
+}
+
+.first-footer-row {
+  background-color: rgba(241, 242, 243, 0.79);
+}
+
+.testimonial-description {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: black;
+}
+
+footer {
+  padding: 10px;
+}
+
+footer a {
+  color:#4a8745;
+  padding: 5px;
+}
+footer a:hover {
+  color:#f4ce14;
+  background-color: #4a8745;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.footer-text {
+  font-size: 2.3rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #4a8745;
+}
+footer i {
+  font-size: 1.3rem;
+  padding: 3px;
+}
+.hero-container {
+  background-color:#4a8745;
+  width: 75%;
+  height: 75%;
+  opacity: 0.85;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: black;
+}
+
+.hero-description2 {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #f4ce14;
+}
+
+.hero-subtitle, .columnDescription {
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #4a8745;
+}
+
+td {
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #black;
+}
+
+.specials-title {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #6ca545;
+}
+
+.footer-header {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #6ca545;
+}
+
+.specials-subtitle {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  color: #4a8745;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.card-size {
+  width: 18rem;
+}
+
+.card-title {
+  color: #4a8745;
+  font-size:2rem;
+}
+
+.card-img-top {
+  max-width: 285px;
+  max-height: 160px;
+  object-fit: cover;
+}
+
+.shadow-container {
+  box-shadow: 0 4px 12px rgba(19, 19, 19, 0.3);
+  transition: box-shadow 0.3s ease;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.shadow-container:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  border-bottom: 1px dashed black;
+}
+
+.menu-image {
+  width: 230px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.menu-container {
+  padding: 0;
+  margin: auto;
+  width: 100%;
+}
+
+/*
+.menu-container div.row:nth-child(odd) {
+  background-color:#f1dd7a;
+}
+
+.menu-container div.row:nth-child(even) {
+  background-color: #ffffff;
+
+}
+*/
+
+.menu-container div.row:hover {
+  background-color: rgba(211, 207, 207, 0.3);
+  cursor: pointer;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker-wrapper input {
+  width: 100%
+}
+
+.rc-time-picker {
+  width: 100%;
+}
+
+.bookingData, .bookingData td {
+  border: 1px solid rgb(200, 195, 195);
+  padding: 5px;
+}
+
+.errorForm {
+  color: rgb(217, 60, 60);
+  font-weight: bold;
 }
