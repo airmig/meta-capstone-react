@@ -21,3 +21,8 @@ cd meta-capstone-react
 
 :white_check_mark:
 Then, start building the app!
+
+```
+npm install
+npm run start
+```
