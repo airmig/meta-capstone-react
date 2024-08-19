@@ -1,5 +1,7 @@
 # Capstone Project
 
+# The app can be previewed at  http://littlelemon.eai.today
+
 ![Little Lemon Restaurant Logo](https://adq.eai.today/ref1/restaurant-b.webp)
 
 ## Overview
